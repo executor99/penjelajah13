@@ -63,11 +63,11 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Halo Pantek, Aku [Guard Fckg](https://telegra.ph/file/86492475a12d1a1af5d58.jpg)
+Halo Pantek, Aku [Penjelajah](https://telegra.ph/file/11d61082b3ac38beabf6c.jpg)
 
-Aku Official Bot Group Fvckg Partner untuk membasmi Orang-Orang Tolol.
+Aku Official Bot Group [Revolution](https://t.me/thisrevolution] Manage By [Kal](https://t.me/penjelajahdimensi)
 
-✪Baca Dulu Info Biar Paham Pantek✪ 
+✪Baca Dulu Info Dibawah!✪ 
 """
 
 buttons = [
@@ -79,17 +79,17 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="Add Reevas Ke Group🖕", url="t.me/fvcking13bot?startgroup=true"
+            text="Add Penjelajah Ke Group", url="t.me/fuvkinghellbot?startgroup=true"
         ),
     ],
     [
-        InlineKeyboardButton(text="Mol", url="t.me/Betterthaanhecan"),
+        InlineKeyboardButton(text="Owner", url="t.me/penjelajahdimensi"),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Daftar Command :* [🖕](https://telegra.ph/file/9238385798316f737a0eb.jpg)
+*Daftar Command :* [🖕](https://telegra.ph/file/11d61082b3ac38beabf6c.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -363,8 +363,8 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Halo Lagi Pantek!  Namaku {dispatcher.bot.first_name} 😍 \n\nAku Adalah Bot Group Management Yang Dimanage oleh [Mol](https://t.me/betterthaanhecan) .* "
-            f"\n\n 🔥 Join [RuangPublik](https://t.me/ruangpublikk) Untuk Support Channel Owner {dispatcher.bot.first_name} 🔥"
+            text=f"*😍 Halo Lagi Kawan!  Namaku {dispatcher.bot.first_name} 😍 \n\nAku Adalah Bot Group Management Yang Dimanage oleh [Mol](https://t.me/betterthaanhecan) .* "
+            f"\n\n 🔥 Join [Revolution](https://t.me/thisrevolution) Untuk Join Group Owner {dispatcher.bot.first_name} 🔥"
             f"\n\n Aku punya banyak fungsi seperti Flood Control, Warn, Ban dan fungsi lain nya untuk mencegah orang-orang tolol merusuh diGroup mu."
             f"\n\nCukup Jadikan Aku Admin dan Kita Bantai Orang Goblok Di Telegram"
             f"\n\n👇 Cukup tekan tombol dibawah untuk lebih banyak informasi 👇",
@@ -400,7 +400,7 @@ def DaisyX_about_callback(update, context):
     elif query.data == "aboutmanu_howto":
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
-            f"\nTambakan {dispatcher.bot.first_name} Ke Groupmu [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) dan pilih Groupmu. \n"
+            f"\nTambahkan {dispatcher.bot.first_name} Ke Groupmu [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) dan pilih Groupmu. \n"
             f"\n\nDapatkan info tentang bot {dispatcher.bot.first_name} Dengan Pc Kontak [Mol](https://t.me/Betterthaanhecan).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
