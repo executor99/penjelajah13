@@ -72,7 +72,7 @@ Aku Official Bot Group Fvckg Partner untuk membasmi Orang-Orang Tolol.
 
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),    
+        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
     ],
     [
         InlineKeyboardButton(text="📞 Help & Commands 📞", callback_data="help_back"),
@@ -83,9 +83,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(
-            text="Mol", url="t.me/Betterthaanhecan"
-        ),
+        InlineKeyboardButton(text="Mol", url="t.me/Betterthaanhecan"),
     ],
 ]
 
