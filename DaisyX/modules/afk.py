@@ -58,7 +58,7 @@ def no_longer_afk(update: Update, context: CallbackContext):
         try:
             options = [
                 "{} anak haram disini!",
-                "{} ga peduli!",
+                "{} memek ga peduli!",
                 "{} liat anak tolol balik lagi!",
                 "{} beban orang tua bangun!",
                 "{} si anjing online!",
