@@ -63,23 +63,23 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Halo Pantek, Aku [Penjelajah](https://telegra.ph/file/11d61082b3ac38beabf6c.jpg)
+Hallo Bangsat Telegram, Gua [Penikmat Memew](https://telegra.ph/file/11d61082b3ac38beabf6c.jpg)
 
-Aku Official Bot Group [Revolution](https://t.me/thisrevolution] Manage By [Kal](https://t.me/penjelajahdimensi)
+Gua hadir disini sebagai Bot Group [Revolution](https://t.me/thisrevolution] Manage By [Memew](https://t.me/penjelajahdimensi)
 
-✪Baca Dulu Info Dibawah!✪ 
+✪Baca ya kemem!✪ 
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="🚀 INFO 🚀", callback_data="aboutmanu_"),
+        InlineKeyboardButton(text="😎 INFO 😎", callback_data="aboutmanu_"),
     ],
     [
         InlineKeyboardButton(text="📞 Help & Commands 📞", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="Add Penjelajah Ke Group", url="t.me/fuvkinghellbot?startgroup=true"
+            text="Add Penikmat memew Ke Group", url="t.me/fuvkinghellbot?startgroup=true"
         ),
     ],
     [
@@ -363,7 +363,7 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Halo Lagi Kawan!  Namaku {dispatcher.bot.first_name} 😍 \n\nAku Adalah Bot Group Management Yang Dimanage oleh [Mol](https://t.me/betterthaanhecan) .* "
+            text=f"*😍 Balik lagi!  Namaku {dispatcher.bot.first_name} 😍 \n\nAku Adalah Bot Group Management Yang Dimanage oleh [Mol](https://t.me/betterthaanhecan) .* "
             f"\n\n 🔥 Join [Revolution](https://t.me/thisrevolution) Untuk Join Group Owner {dispatcher.bot.first_name} 🔥"
             f"\n\n Aku punya banyak fungsi seperti Flood Control, Warn, Ban dan fungsi lain nya untuk mencegah orang-orang tolol merusuh diGroup mu."
             f"\n\nCukup Jadikan Aku Admin dan Kita Bantai Orang Goblok Di Telegram"
